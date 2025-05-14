@@ -37,7 +37,7 @@ jobs:
 
   deplo-dev:
     needs: build
-    uses: PdornelasMarcato/pipelane_templates/blank.yml/.github/workflows/demo-deploy.yml@main
+    uses: PdornelasMarcato/pipelane_templates/.github/workflows/demo-deploy.yml@main
     with: 
       variavel-demo: "Demo Dev"
     # environment:
